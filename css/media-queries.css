@@ -7,5 +7,6 @@
 @media only screen and (max-width: 700px) {
   body {
     background-position: -800px -550px, 100px 200px;
+    padding: 150px 0;
   }
 }

@@ -46,3 +46,13 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+/* PERSONAL */
+* {
+  box-sizing: border-box;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+}

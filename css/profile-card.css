@@ -1,0 +1,64 @@
+.profile-card {
+  background-color: #FFF;
+  background-image: url(../images/bg-pattern-card.svg);
+  background-repeat: no-repeat;
+  border-radius: 15px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+  max-width: 87vw;
+  padding: 87px 0 3px 0;
+  position: relative;
+  text-align: center;
+  width: 350px;
+}
+
+.profile-img {
+  background-color: #FFF;
+  border-radius: 50%;
+  margin: 0 auto;
+  padding: 5px;
+  width: fit-content;
+}
+.profile-img img {
+  border-radius: 50%;
+}
+
+.profile-card .user-info {
+  border-bottom: 1px solid rgba(150, 150, 150, 0.25);
+  padding: 10px 0 25px;
+}
+.profile-card .user-info h2 {
+  color: #2D3248;
+  font-weight: 700;
+  padding: 13px 0;
+}
+.profile-card .user-info h2 span {
+  color: #6A6F81;
+  font-weight: 400;
+  margin: 0 5px;
+}
+.user-info p {
+  color: #6A6F81;
+  font-size: 0.77rem;
+}
+
+.user-status {
+  padding: 20px 0;
+}
+.user-status ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+.user-status li {
+  font-size: 0.6rem;
+  color: #6A6F81;
+  letter-spacing: 1px;
+}
+.user-status span {
+  display: block;
+  font-weight: 700;
+  color: #2D3248;
+  font-size: 1rem;
+  letter-spacing: normal;
+  margin: 8px 0;
+}
