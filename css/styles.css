@@ -1,0 +1,24 @@
+/* FONT IMPORT */
+/* font-family: 'Kumbh Sans', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+/* COLOR REFERENCE */
+/* .color {
+  color: #19A2AE;
+  color: #2D3248;
+  color: #6A6F81;
+  color: #969696;
+} */
+
+html {
+  font-size: 18px;
+}
+
+body {
+  background-color: #19A2AE;
+  background-image: url(../images/bg-pattern-top.svg), url(../images/bg-pattern-bottom.svg);
+  background-repeat: no-repeat;
+  background-position: -285px -500px, 700px 380px;
+
+  /* DELETAR */height: 720px;
+}

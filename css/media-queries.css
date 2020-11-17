@@ -1,0 +1,11 @@
+@media only screen and (max-width: 1000px) {
+  body {
+    background-position: -550px -500px, 350px 380px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  body {
+    background-position: -800px -550px, 100px 200px;
+  }
+}
